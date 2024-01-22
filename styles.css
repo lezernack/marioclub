@@ -9,7 +9,7 @@ a {
   font-family: arial;
 }
 header {
-  background-color: #f63232;
+  background-color: #4b4b4b;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -19,8 +19,8 @@ header {
   left: 0;
 }
 header h1 {
-  color: white;
-  border: 8px solid white;
+  color: #f63232;
+  border: 8px solid #f63232;
   padding: 6px 12px;
   display: inline-block;
   border-radius: 36px;
@@ -46,7 +46,7 @@ header h1 {
   font-size: 1.3em;
 }
 nav {
-  background-color: #f4f4f4;
+  background-color: #f63232;
   padding: 20px;
   position: sticky;
   top: 106px;
@@ -63,10 +63,10 @@ nav li {
 }
 nav li a {
   text-decoration: none;
-  color: #4b4b4b;
+  color: white;
 }
 nav li a.join {
-  color: #f63232;
+  color: white;
 }
 main {
   max-width: 100%;
